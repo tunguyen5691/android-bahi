@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/grey"
+       >
+            <ImageView
+                android:id="@+id/idcomponent"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="#f00000"
+             />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Component Name"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/montserratbold"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
